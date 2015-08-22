@@ -138,7 +138,6 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         }
     }
 
-
     public String translate(String text) throws Exception{
         //Atribui o id e secret gerado no Microsoft MarkerPlace
         //http://blogs.msdn.com/b/translation/p/gettingstarted1.aspx
@@ -163,7 +162,6 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         }
         return translatedText;
     }
-
 
     public void btnFalarClick(View v) {
 
