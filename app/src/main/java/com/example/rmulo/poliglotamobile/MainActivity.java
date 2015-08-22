@@ -24,7 +24,6 @@ import com.memetix.mst.translate.Translate;
 
 import java.util.Locale;
 
-
 public class MainActivity extends Activity implements TextToSpeech.OnInitListener {
 
     public static final int REQUEST_CHECK = 0;
