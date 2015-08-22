@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Poliglota Mobile</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="selecione_um_idioma">Selecione um idioma</string>
+    <string name="digite_o_texto_para_traduzir">Digite o texto em Português</string>
+    <string name="primeiro_digite_o_texto_para_traduzir">Primeiro digite o texto para traduzir</string>
+    <string name="falar">Falar</string>
+    <string name="traduzir">Traduzir</string>
+    <string name="idioma_nao_suportado">Idioma não suportado</string>
+    <string name="falha_na_inicializacao">Falha na inialização do mSpeech</string>
+
+    <string-array name="locale_arrays">
+        <item>Inglês</item>
+        <item>Português</item>
+        <item>Francês</item>
+        <item>Espanhol</item>
+    </string-array>
+
+</resources>
