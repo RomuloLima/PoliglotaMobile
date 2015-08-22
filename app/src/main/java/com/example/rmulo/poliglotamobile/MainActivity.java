@@ -65,12 +65,10 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
         //Faz as verificacoes no retorno da chamada da Intent(recurso) do TTS.
         if (requestCode == REQUEST_CHECK) {
             if (resultCode == TextToSpeech.Engine.CHECK_VOICE_DATA_PASS){
-                System.out.println("RSL: Inicializa o mSpeech");
                 // Inicializa o mSpeech passando o contexto (this) e quem implementa a
                 // interface OnInitListener (this)
                 mSpeech = new TextToSpeech(this, this);
             } else {
-                System.out.println("RSL: Nao tem os recursos do TTS instalado");
                 // Nao tem os recursos do TTS instalado, solicita instalacao
                 Intent intent = new Intent();
                 intent.setAction(TextToSpeech.Engine.ACTION_INSTALL_TTS_DATA);
@@ -132,9 +130,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
                     updateProgressBar(false);
                 }
             }
-
             new TranslateTask().execute();
-
         }
     }
 
